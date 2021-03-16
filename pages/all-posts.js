@@ -9,17 +9,11 @@ export default function AllPostsPage() {
             <PreviewPost key={post.link} post={post} />
         )
     });
-    
+
     return (
         <>
-            posts!
-            {
-                arrPosts
-                // posts.map(post => {
-                //     <div>{post.link}</div>
-                //     // <PreviewPost key={post.link} post={post} />
-                // })
-            }
+            All posts!
+            { arrPosts }
         </>
     )
 }
