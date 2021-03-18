@@ -4,7 +4,10 @@ export const meta = {
   title: 'Post 1',
   description: 'Getting started',
   date: 'Mar 16, 2021',
-  readTime: 1
+  readTime: 1,
+  imgAlt: 'test alt',
+  imgUri: '/static/test',
+  imgTitle: 'test title',
 }
 
 export default ({ children }) => <FullPost meta={meta}>{children}</FullPost>;
