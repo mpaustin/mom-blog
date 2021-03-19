@@ -11,7 +11,7 @@ export default function Header() {
             <Box className={styles.header} >
                 <Box className={styles.headerTitle} >
                     <h2>
-                        Attabuoy and Kel 
+                        <Link href='/'>Attabuoy and Kel </Link>
                     </h2>
                 </Box>
                 <Box className={styles.headerItems} >
