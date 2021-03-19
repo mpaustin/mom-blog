@@ -9,17 +9,17 @@ export default function Header() {
     return (
         <Toolbar >
             <Box className={styles.header} >
-                <Box >
+                <Box className={styles.headerTitle} >
                     <h2>
                         Attabuoy and Kel 
                     </h2>
                 </Box>
-                <Box>
+                <Box className={styles.headerItems} >
                     <h3>
                         <Link href='/about'>About</Link>
                     </h3>
                 </Box>
-                <Box>
+                <Box className={styles.headerItems} >
                     <h3>
                         <Link href='/all-posts'>Blog</Link>
                     </h3>
